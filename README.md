@@ -2,4 +2,4 @@ The purpose of this technical demo is to show one method of how to make a basic 
 
 Please check our [documentation](https://docs.colyseus.io/demo/mmo/) for more information about utilizing this demo
 
-![Screenshot](Screenshot.PNG)
+![Screenshot](screenshot.PNG)
