@@ -10,7 +10,7 @@ import { User } from "../entities/UserEntity";
 const options: Options = {
   type: 'mongo',
   entities: [User],
-  dbName: 'TechDemo4'
+  dbName: 'Colyseus_MMO_Demo'
 };
 
 export default options;

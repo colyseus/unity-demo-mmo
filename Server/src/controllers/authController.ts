@@ -69,7 +69,6 @@ export async function signUp(req: any, res: any) {
             let password = await encryptPassword(req.body.password);
             
             // Create a new user
-            console.log("Creating new user with password: " + password);
             user = userRepo.create({
                 username: req.body.username,
                 email: req.body.email,
