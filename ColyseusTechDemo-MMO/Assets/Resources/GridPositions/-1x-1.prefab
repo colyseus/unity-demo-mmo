@@ -1881,7 +1881,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1998996568179811909, guid: b6f53391c74c108468ec10dc3cca9c0e, type: 3}
       propertyPath: m_Name
-      value: WestExit
+      value: EastExit
       objectReference: {fileID: 0}
     - target: {fileID: 3407937909809260170, guid: b6f53391c74c108468ec10dc3cca9c0e, type: 3}
       propertyPath: m_RootOrder

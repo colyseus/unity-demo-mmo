@@ -33,12 +33,28 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private ChatInput chatInput = null;
 
+    [SerializeField]
+    private GameObject initialControlsDisplay = null;
+
+    [SerializeField]
+    private float controlDisplayLength = 3.0f;
+
     public bool InGameMenuShowing { get { return inGameMenu.gameObject.activeSelf; } }
 
     void Awake()
     {
         instance = this;
         inGameMenu.gameObject.SetActive(false);
+    }
+
+    //Display the controls for a bit on first launch
+    IEnumerator Start()
+    {
+        initialControlsDisplay.SetActive(true);
+        
+        yield return new WaitForSeconds(controlDisplayLength);
+
+        initialControlsDisplay.SetActive(false);
     }
 
     void OnDestroy()
