@@ -157,11 +157,15 @@ public class NetworkedEntity : MonoBehaviour
     private void SetAnimationValues()
     {
         //Update local speed reference
-        if (prevPos != transform.position)
+        if (prevPos != transform.localPosition)
         {
-            Vector3 dist = transform.position - prevPos;
+            Vector3 dist = transform.localPosition - prevPos;
             currentSpeed = dist.magnitude / Time.deltaTime;
-            prevPos = transform.position;
+            prevPos = transform.localPosition;
+        }
+        else
+        {
+            currentSpeed = 0.0f;
         }
 
         walkVal = currentSpeed / movement.moveSpeed;
