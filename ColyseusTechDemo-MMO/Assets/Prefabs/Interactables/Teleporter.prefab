@@ -305,7 +305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemID: 
   serverType: TELEPORTER
-  instructions: Press "X" to Teleport
+  instructions: Press "X" to Teleport<br>(Costs 2 Coins)
   interactionInstructions: {fileID: 4366558631511711158}
   instructionRoot: {fileID: 2739413066482615811}
   OnSuccessfulUseEvent:

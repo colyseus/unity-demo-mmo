@@ -5055,7 +5055,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemID: 
   serverType: BUTTON_PODIUM
-  instructions: Press "X" to Interact
+  instructions: Press "X" to Interact<br>(Gives 1 Coin)
   interactionInstructions: {fileID: 4082531832133158617}
   instructionRoot: {fileID: 2464992133517204844}
   OnSuccessfulUseEvent:

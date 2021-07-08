@@ -223,7 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemID: coinop_0
   serverType: COIN_OP
-  instructions: Press "X" to Ride
+  instructions: Press "X" to Ride<br>(Costs 1 Coin)
   interactionInstructions: {fileID: 6581419380894816183}
   instructionRoot: {fileID: 4740212698517736450}
   OnSuccessfulUseEvent:
