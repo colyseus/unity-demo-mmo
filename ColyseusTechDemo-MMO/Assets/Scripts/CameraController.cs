@@ -74,7 +74,7 @@ public class CameraController : MonoBehaviour
             desiredZoom = Vector3.Lerp(new Vector3(0, minZoom.x, minZoom.y), new Vector3(0, maxZoom.x, maxZoom.y), currentZoom);
         }
 
-        if (Input.GetMouseButton(2))
+        if (Input.GetMouseButton(1))
         {
             cameraRot += rotateSpeed * Input.GetAxis("Mouse X");
             targetRotation = Quaternion.Euler(0, cameraRot, 0);
